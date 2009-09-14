@@ -18,6 +18,7 @@
         <!-- first build JIRA plugin to install this -->
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>axistools-maven-plugin</artifactId>
+        <version>1.1-hudson-jira</version>
         <configuration>
           <packageSpace>hudson.plugins.jira.soap</packageSpace>
           <sourceDirectory>src/main/wsdl/</sourceDirectory>
